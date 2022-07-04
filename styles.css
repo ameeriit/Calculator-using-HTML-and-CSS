@@ -1,0 +1,65 @@
+body{
+font-family: 'Nunito',sans-serif;}
+
+#container {
+    height: 500px;
+    width: 350px;
+    border-radius: 15%;
+    background: #EEF0F4;
+    border-radius: 10px;
+    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+.cle {
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: #EEF0F4;
+    border-radius: 100%;
+    box-shadow: inset 9.91px 9.91px 15px#D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+    outline: none;
+    margin: 10px 10px 5px 10px;
+    position: relative;
+    top: 40px;
+    left: 8px;
+    font-size: 15px;
+    font-family: 'Nunito',sans-serif;
+    color: grey;
+}
+
+#clear {
+    position: relative;
+    top: 40px;
+    left: 8px;
+}
+
+#calc5 {
+    border: none;
+    outline: none;
+    background: #EEF0F4;
+    box-shadow: inset 9.91px 9.91px 15px#D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 8px;
+    width: 330px;
+    height: 60px;
+    margin: 0px 0px 0px 0px; 
+    font-family: 'Nunito',sans-serif;
+}
+
+::placeholder {
+    font-size: 50px;
+    text-align: right;
+}
+
+#calc5 {
+    font-size: 50px;
+    text-align: right;
+    color: grey; 
+    font-family:'Poppins', sans -serif;
+}
